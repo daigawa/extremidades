@@ -1,15 +1,50 @@
+:root {
+  font-family: "Josefin Sans", serif;
+
+}
+
+body {
+  background-image: url(assets/travel.JPG);
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 900px;
+  padding: 24px;
+  background-color: #F0E8C2;
+  border-radius: 3px;
+  margin: 3px auto;
+  
+}
+h1, h2 {
+  color: navy;
+}
+
 #rebunimg {
-max-width: 800px;
+max-width: 850px;
 height: auto;
 border-radius: 16px;
+
 }
+
 #cbeimg {
-  max-width: 800px;
+  display: block;
+  max-width: 850px;
   height: auto;
   border-radius: 16px;
 }
 #cdsimg {
-  max-width: 800px;
+  max-width: 850px;
   height: auto;
   border-radius: 16px;
+}
+.footerlink {
+  width: 20px;
+  
+}
+.daigawaworks {
+  text-align: center;
+  padding: 20px;
+  color: #F0E8C2;
 }
